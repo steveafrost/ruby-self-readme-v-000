@@ -2,4 +2,5 @@ tags:
   - self
 languages:
   - ruby
-resources: 0
+resources: 
+  - 2

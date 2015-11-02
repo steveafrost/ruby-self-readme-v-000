@@ -15,15 +15,15 @@ For example, if we create a `Dog` class like this:
 ```ruby
 class Dog
 
-	attr_accessor :name
+  attr_accessor :name
 
-	def initialize(name)
-		@name = name
-	end
+  def initialize(name)
+    @name = name
+  end
 	
-	def bark
-		"Woof!"
-	end
+  def bark
+    "Woof!"
+  end
 
 end
 ```
@@ -64,9 +64,9 @@ Copy and paste the following code into IRB:
 
 ```ruby
 class Dog
-	def showing_self
-		puts self
-	end
+  def showing_self
+    puts self
+  end
 end
 ```
 
@@ -94,11 +94,11 @@ Let's say that Fido here is getting adopted. Fido's new owner is Sophie. Let's w
 ```ruby
 class Dog
 
-	attr_accessor :name, :owner
+  attr_accessor :name, :owner
 	
-	def initialize(name)
-		@name = name
-	end
+  def initialize(name)
+    @name = name
+  end
 
 end
 ```
@@ -118,7 +118,7 @@ To represent this with code, we could write an `#adopt` method like this:
 
 ```ruby
 def adopted(dog, owner_name)
-	dog.owner = owner_name
+  dog.owner = owner_name
 end
 ```
 
@@ -140,19 +140,19 @@ Let's refactor our code above into an instance method on the `Dog` class.
 ```ruby
 class Dog
 
-	attr_accessor :name, :owner
+  attr_accessor :name, :owner
 
-	def initialize(name)
-	  @name = name
-	end
+  def initialize(name)
+    @name = name
+  end
 	
-	def bark
-	  "Woof!"
-	end
+  def bark
+    "Woof!"
+  end
 	
-	def get_adopted(owner_name)
-	  self.owner = owner_name
-	end
+  def get_adopted(owner_name)
+    self.owner = owner_name
+  end
 
 end
 ```

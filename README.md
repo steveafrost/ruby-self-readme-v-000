@@ -112,7 +112,7 @@ fido.owner
   => "Sophie"
 ```
 
-Great, Fido now knows the name of his owner. Let's think about the situation in which `fido` becomes gets a new owner. This would occur at the moment in which `fido` is adopted. 
+Great, Fido now knows the name of his owner. Let's think about the situation in which `fido` gets a new owner. This would occur at the moment in which `fido` is adopted. 
 
 To represent this with code, we could write an `#adopt` method like this:
 

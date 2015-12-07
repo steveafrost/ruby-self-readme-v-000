@@ -163,7 +163,5 @@ Think about it: if `self` refers to the object on which the method is being call
 
 ## Resources
 
-* [Post-moderism and Ruby's Self](http://blog.flatironschool.com/programming-postmodernism-and-rubys-self/)
+* [Post-modernism and Ruby's Self](http://blog.flatironschool.com/programming-postmodernism-and-rubys-self/)
 * [Metaprogramming in Ruby](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
-
-<a href='https://learn.co/lessons/ruby-self-readme' data-visibility='hidden'>View this lesson on Learn.co</a>

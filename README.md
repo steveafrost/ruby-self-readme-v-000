@@ -114,7 +114,7 @@ fido.owner
 
 Great, Fido now knows the name of his owner. Let's think about the situation in which `fido` gets a new owner. This would occur at the moment in which `fido` is adopted. 
 
-To represent this with code, we could write an `#adopt` method like this:
+To represent this with code, we could write an `#adopted` method like this:
 
 ```ruby
 def adopted(dog, owner_name)
@@ -165,3 +165,5 @@ Think about it: if `self` refers to the object on which the method is being call
 
 * [Post-modernism and Ruby's Self](http://blog.flatironschool.com/programming-postmodernism-and-rubys-self/)
 * [Metaprogramming in Ruby](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
+
+<a href='https://learn.co/lessons/ruby-self-readme' data-visibility='hidden'>View this lesson on Learn.co</a>

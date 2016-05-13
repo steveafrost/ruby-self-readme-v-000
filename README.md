@@ -159,7 +159,7 @@ end
 
 Here, we use the `self` keyword inside of the `#get_adopted` instance method to refer to whichever dog this method is being called on. We set that dog's `owner` property equal to the new owner's name by calling the `#owner=` method on `self` inside the method body. 
 
-Think about it: if `self` refers to the object on which the method is being called, and if that object is an instance of the `Dog` class, than we can call any of our other instance methods on `self`. 
+Think about it: if `self` refers to the object on which the method is being called, and if that object is an instance of the `Dog` class, then we can call any of our other instance methods on `self`. 
 
 ## Resources
 
@@ -167,3 +167,5 @@ Think about it: if `self` refers to the object on which the method is being call
 * [Metaprogramming in Ruby](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-self-readme' title='Ruby Self'>Ruby Self</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-self-readme'>Self</a> on Learn.co and start learning to code for free.</p>

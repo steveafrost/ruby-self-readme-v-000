@@ -48,7 +48,7 @@ fido.bark
   => "Woof!"
 ```
 
-Fido, the individual dog that we created, has a number of methods we can call on it that will reveal it's attributes, like Fido's name, and enact certain behaviors, like barking. 
+Fido, the individual dog that we created, has a number of methods we can call on it that will reveal its attributes, like Fido's name, and enact certain behaviors, like barking. 
 
 If an object, like `fido`, is a neat package of attributes and behaviors, does an object know about itself? In other words, does each individual object we create have the ability to enact behaviors *on itself*, instead of in isolation, like our `#bark` method?
 
@@ -166,3 +166,5 @@ Think about it: if `self` refers to the object on which the method is being call
 * [Metaprogramming in Ruby](http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-self-readme' title='Ruby Self'>Ruby Self</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-self-readme'>Self</a> on Learn.co and start learning to code for free.</p>

@@ -159,7 +159,7 @@ end
 
 Here, we use the `self` keyword inside of the `#get_adopted` instance method to refer to whichever dog this method is being called on. We set that dog's `owner` property equal to the new owner's name by calling the `#owner=` method on `self` inside the method body. 
 
-Think about it: if `self` refers to the object on which the method is being called, and if that object is an instance of the `Dog` class, than we can call any of our other instance methods on `self`. 
+Think about it: if `self` refers to the object on which the method is being called, and if that object is an instance of the `Dog` class, then we can call any of our other instance methods on `self`. 
 
 ## Resources
 
